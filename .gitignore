@@ -16,4 +16,5 @@ dist/
 .coverage
 htmlcov/
 *.bak
+*.pdf
 

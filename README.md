@@ -210,10 +210,6 @@ lld-practice-platform/
 │   ├── package.json                 # NPM scripts & dependencies
 │   ├── tailwind.config.js           # Design tokens & color system
 │   └── vite.config.ts               # Vite configuration & dev proxy
-├── docs/                            # Assignment documentation
-│   ├── RESEARCH.md                  # Learner research note (1-2 pages)
-│   ├── DESIGN.md                    # Architecture & domain design note
-│   └── CHECKLIST.md                 # 40-point verification checklist
 ├── .github/workflows/               # GitHub Actions CI workflow
 ├── docker-compose.yml               # Multi-container Docker Compose configuration
 ├── AI_USAGE.md                      # AI assistance disclosure and rationale
@@ -387,7 +383,7 @@ All API endpoints are prefixed with `/api/`. Standard error responses adhere to 
 
 ## Quality & Pre-Launch Checklist
 
-The platform was built and audited against a comprehensive 40-point verification checklist (`docs/CHECKLIST.md`):
+The platform was built and audited against a comprehensive 40-point verification checklist:
 - **20/20 Website Quality**: No horizontal scroll on any viewport (down to 360px), accessible mobile navigation menu, SVG favicon, distinct route titles and meta descriptions, custom 404 handler, current copyright year, zero dead buttons or links, clear CTAs, explicit accessible error & success notifications.
 - **20/20 Pre-Launch Security & SEO**: Fully functional Privacy Policy (`/privacy`) and Terms of Service (`/terms`), zero frontend-exposed secrets, production HTTPS redirect configurations, valid `sitemap.xml` and `robots.txt`, Open Graph social card preview, bot honeypot protection on editors, and strict two-tier (client + server) validation.
 

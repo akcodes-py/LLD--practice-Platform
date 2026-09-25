@@ -1,4 +1,4 @@
-﻿# AI usage
+# AI usage
 
 AI (Claude-style assistance) was used as a sounding board during this build. Each decision below was reviewed against
 the assignment brief and the actual codebase; several suggestions were rejected or reshaped.
@@ -10,7 +10,7 @@ the assignment brief and the actual codebase; several suggestions were rejected 
 - **Why:** code needs compile/test infra and diagrams need an editor — both double the build without doubling the
   learning signal. The helping guide asks for the *smallest sufficient* format; text captures assumptions,
   responsibilities, interfaces, and trade-offs, which is exactly what the rubric scores. Code/diagram stay documented
-  extension points (`docs/DESIGN.md` change test A).
+  extension points (see architectural change tests in README).
 
 ## 2. Evaluation contract: criterion → evidence → concern → suggestion → confidence
 
