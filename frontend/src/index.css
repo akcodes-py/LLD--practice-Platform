@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+}
+
+body {
+  @apply bg-slate-50 text-ink-900 font-sans antialiased;
+}
+
+/* Visible keyboard focus everywhere (checklist: a11y). */
+a:focus-visible,
+button:focus-visible,
+textarea:focus-visible,
+input:focus-visible {
+  outline: 3px solid #2563eb;
+  outline-offset: 2px;
+  border-radius: 6px;
+}
+
+.field-label {
+  @apply block text-sm font-semibold text-ink-900 mb-1;
+}
+.field-hint {
+  @apply text-xs text-ink-500 mb-2;
+}
+.field-error {
+  @apply text-xs text-red-700 mt-1;
+}
+.card {
+  @apply bg-white border border-slate-200 rounded-xl shadow-sm;
+}
+.btn-primary {
+  @apply inline-flex items-center justify-center gap-2 bg-brand-500 hover:bg-brand-600 text-white font-semibold rounded-lg px-5 py-2.5 transition-colors disabled:opacity-50 disabled:cursor-not-allowed;
+}
+.btn-secondary {
+  @apply inline-flex items-center justify-center gap-2 bg-white border border-slate-300 hover:border-slate-400 text-ink-900 font-semibold rounded-lg px-5 py-2.5 transition-colors disabled:opacity-50;
+}

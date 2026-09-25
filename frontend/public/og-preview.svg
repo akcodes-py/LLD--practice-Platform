@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" role="img" aria-label="LLD Practice Platform social preview">
+  <rect width="1200" height="630" fill="#0F172A"/>
+  <rect x="80" y="120" width="72" height="72" rx="16" fill="#F3912E"/>
+  <text x="80" y="280" font-family="Inter, Arial, sans-serif" font-size="64" font-weight="700" fill="#FFFFFF">LLD Practice Platform</text>
+  <text x="80" y="340" font-family="Inter, Arial, sans-serif" font-size="28" fill="#CBD5E1"> parking lot · elevator · vending machine · library · food ordering </text>
+  <text x="80" y="400" font-family="Inter, Arial, sans-serif" font-size="28" fill="#F3912E">Choose a problem → design → submit → explainable feedback → retry</text>
+</svg>
